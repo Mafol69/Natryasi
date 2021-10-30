@@ -32,7 +32,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 101,
 					'title' => '10 монет',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 1
 				);
 			}
@@ -40,7 +40,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 201,
 					'title' => '60 монет',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 5
 				);
 			}
@@ -48,7 +48,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 301,
 					'title' => '130 монет',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 10
 				);
 			}
@@ -56,7 +56,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 401,
 					'title' => '250 монет',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 20
 				);
 			}
@@ -69,7 +69,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 102,
 					'title' => '500 рефиков (тестовый режим)',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 1
 				);
 			}
@@ -77,7 +77,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 202,
 					'title' => '60 монет (тестовый режим)',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 5
 				);
 			}
@@ -85,7 +85,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 302,
 					'title' => '130 монет (тестовый режим)',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png',
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png',
 					'price' => 10
 				);
 			}
@@ -93,7 +93,7 @@ else {
 				$response['response'] = array(
 					'item_id' => 402,
 					'title' => '250 монет (тестовый режим)',
-					'photo_url' => 'https://github.com/Mafol69/Natryasi/Base/Shekel.png,
+					'photo_url' => 'https://dharmagames.ru/games/arcade/mrnoob/base/offAds.png,
 					'price' => 20
 				);
 			}
