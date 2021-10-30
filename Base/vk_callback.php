@@ -38,7 +38,7 @@ else {
 			}
 			elseif ($item == '5golos'){
 				$response['response'] = array(
-					'item_id' => 102,
+					'item_id' => 201,
 					'title' => '60 монет',
 					'photo_url' => 'https://github.com/Mafol69/Natryasi/blob/4c747f2f83b4d1d0986c951bccdfe2e90c5ccb78/Base/Shekel.png',
 					'price' => 5
@@ -46,7 +46,7 @@ else {
 			}
 			elseif ($item == '10golos'){
 				$response['response'] = array(
-					'item_id' => 103,
+					'item_id' => 301,
 					'title' => '130 монет',
 					'photo_url' => 'https://github.com/Mafol69/Natryasi/blob/4c747f2f83b4d1d0986c951bccdfe2e90c5ccb78/Base/Shekel.png',
 					'price' => 10
@@ -54,7 +54,7 @@ else {
 			}
 			elseif ($item == '20golos'){
 				$response['response'] = array(
-					'item_id' => 104,
+					'item_id' => 401,
 					'title' => '250 монет',
 					'photo_url' => 'https://github.com/Mafol69/Natryasi/blob/4c747f2f83b4d1d0986c951bccdfe2e90c5ccb78/Base/Shekel.png',
 					'price' => 20
@@ -67,7 +67,7 @@ else {
 			$item = $input['item'];
 			if ($item == '1golos'){
 				$response['response'] = array(
-					'item_id' => 201,
+					'item_id' => 102,
 					'title' => '500 рефиков (тестовый режим)',
 					'photo_url' => 'https://github.com/Mafol69/Natryasi/blob/4c747f2f83b4d1d0986c951bccdfe2e90c5ccb78/Base/Shekel.png',
 					'price' => 1
@@ -83,7 +83,7 @@ else {
 			}
 			elseif ($item == '10golos'){
 				$response['response'] = array(
-					'item_id' => 203,
+					'item_id' => 302,
 					'title' => '130 монет (тестовый режим)',
 					'photo_url' => 'https://github.com/Mafol69/Natryasi/blob/4c747f2f83b4d1d0986c951bccdfe2e90c5ccb78/Base/Shekel.png',
 					'price' => 10
@@ -91,7 +91,7 @@ else {
 			}
 			elseif ($item == '20golos'){
 				$response['response'] = array(
-					'item_id' => 204,
+					'item_id' => 402,
 					'title' => '250 монет (тестовый режим)',
 					'photo_url' => 'https://github.com/Mafol69/Natryasi/blob/4c747f2f83b4d1d0986c951bccdfe2e90c5ccb78/Base/Shekel.png',
 					'price' => 20
