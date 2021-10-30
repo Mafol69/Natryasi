@@ -4195,8 +4195,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.VKBridge.Exps.UserData,
 		C3.Plugins.Text.Cnds.CompareInstanceVar,
 		C3.Plugins.Text.Acts.SetText,
-		C3.Plugins.Touch.Cnds.CompareAcceleration,
-		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Text.Acts.SetPos,
 		C3.Plugins.Sprite.Acts.SetPos,
@@ -4204,7 +4202,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.VKBridge.Cnds.JoinGroupSuccess,
 		C3.Plugins.VKBridge.Acts.StorageSet,
 		C3.Plugins.Sprite.Acts.SetCollisions,
-		C3.Plugins.Text.Acts.SetFontSize
+		C3.Plugins.Text.Acts.SetFontSize,
+		C3.Plugins.Touch.Cnds.CompareAcceleration,
+		C3.Plugins.System.Acts.Wait
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4296,6 +4296,7 @@ self.C3_JsPropNameTable = [
 	{VKconnect: 0},
 	{TypePurchaseValut: 0},
 	{Groop_1: 0},
+	{TimeChek: 0},
 	{Type: 0}
 ];
 }
@@ -4419,7 +4420,7 @@ self.C3_ExpressionFuncs = [
 		() => "CheckPurchase",
 		() => 10,
 		() => 60,
-		() => 120,
+		() => 130,
 		() => 250,
 		() => "Groop_1",
 		p => {
@@ -4438,10 +4439,6 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0("status");
 		},
-		() => 45,
-		() => 0,
-		() => 1,
-		() => 0.00277777778,
 		() => "ShopButton",
 		() => 180,
 		() => 535,
@@ -4490,7 +4487,11 @@ self.C3_ExpressionFuncs = [
 		() => "Ваш приз:  Промокод 62409F4 +30% к депозиту easydrop(всего 300 использований)",
 		() => 200,
 		() => "Поздравляю! Вы выиграли рекламное место! Напишите в наше сообщество кодовое слово AKATSUKI, чтобы стать участником конкурса",
-		() => 11
+		() => 11,
+		() => 0,
+		() => 45,
+		() => 1,
+		() => 0.00277777778
 ];
 
 
