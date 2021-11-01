@@ -1,7 +1,7 @@
 {
-	"name": "Tryasi",
-	"short_name": "Tryasi",
-	"description": "Mafol",
+	"name": "Sport",
+	"short_name": "Sport",
+	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "portrait",
